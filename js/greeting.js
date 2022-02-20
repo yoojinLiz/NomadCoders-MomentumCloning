@@ -27,5 +27,7 @@ if (savedUsername===null){
 function paintGreetings(username){
   greeting.innerText =`Good to see you, ${username} !`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
+  todoForm.classList.remove(HIDDEN_CLASSNAME);
+
 }
 
