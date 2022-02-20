@@ -99,3 +99,27 @@ img {
     background-color:transparent;
     border: none
 }
+
+
+
+
+
+#login-form input[type=text] {
+	width: 400px;
+	height: 30px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    margin: 10px 0px;
+    color:white;
+    font-size: 24px;
+}
+#login-form input[type=text]:active,#login-form input[type=text]:focus {
+    outline:none;
+}
+
+#login-form input[type=text]::placeholder {
+    color:  rgba(255,255,255,0.5);
+    font-size: 18px;
+    text-align: center;
+} 
